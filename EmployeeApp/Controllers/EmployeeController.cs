@@ -22,7 +22,6 @@ namespace EmployeeApp.Controllers
             return this._employeeRepository.GetEmployees();
         }
 
-
         [HttpPost("PostEmployee")]
         public int PostEmployee(Employee employee)
         {
